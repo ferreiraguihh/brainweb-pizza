@@ -191,6 +191,9 @@ display: flex;
   .font-mobile{
     font-size: 30px;
   }
+  .container-info-home{
+    width: 100%;
+  }
 }
 .container-fillings-title{
   display: flex;
