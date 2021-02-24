@@ -1,10 +1,9 @@
 import axios from 'axios';
 
 export const API_TOKEN = 'API_TOKEN';
-const { URL_ENV } = process.env
-const url = 'http://localhost:8081/';
+const url =  process.env.URL_ENV || 'http://localhost:8081';
 
-axios.defaults.baseURL = (URL_ENV || url);
+axios.defaults.baseURL = `${url}/`;
 
 export const AxiosWithInterceptors = axios.create({
  
