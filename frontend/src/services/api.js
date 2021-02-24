@@ -1,6 +1,5 @@
 import axios from 'axios';
 
-export const API_TOKEN = 'API_TOKEN';
 const url =  process.env.URL_ENV || 'http://localhost:8081';
 
 axios.defaults.baseURL = `${url}/`;

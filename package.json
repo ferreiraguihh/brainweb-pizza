@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "scripts": {
       "start": "cd backend/ && npm start",
-      "build": "cd frontend/  && npm install && npm run build && cd .. && npm run build-server ",
+      "build": "URL_ENV=https://brainweb-pizza.herokuapp.com/ && cd frontend/  && npm install && npm run build && cd .. && npm run build-server ",
       "build-server": "cd backend/ && npm install"
     },
     "cacheDirectories": [
