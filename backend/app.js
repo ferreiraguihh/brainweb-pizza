@@ -27,6 +27,11 @@ app.use(express.static(path.join(__dirname, '../frontend/build')));
 app.get('/', function(req, res) {
   res.render(path.join(__dirname, 'index.html'));
 });
+
+app.get('/order', function(req, res) {
+  res.redirect('/')
+});
+
 app.use('/size', routers.Size);
 app.use('/edge', routers.Edge);
 app.use('/filling', routers.Filling);
