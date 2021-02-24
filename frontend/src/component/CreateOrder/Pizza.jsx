@@ -42,7 +42,7 @@ function Pizza({ value, type }) {
                 </div>
                 <div>
                     <p>Valor:</p>
-                    <span>R${newPrice}</span>
+                    <span>R${newPrice? newPrice:''}</span>
                 </div>
 
             </div>
