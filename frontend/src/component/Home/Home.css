@@ -1,0 +1,30 @@
+.container-home{
+    background-image: url('https://i.pinimg.com/originals/be/c4/de/bec4de77e9c454368367727167fcb65f.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding: 60px;
+}
+
+.container-info-home{
+    width: 40%;
+    text-align: center;
+}
+
+.container-info-home button{
+    border: 0px;
+    background-color: hsl(0deg 81% 40%);
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+    border-radius: 6px;
+    padding: 5px 10px;
+    cursor: pointer;
+}

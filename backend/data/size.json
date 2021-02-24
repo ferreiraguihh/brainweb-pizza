@@ -1,0 +1,28 @@
+{
+    "size": [
+        {
+            "id": 1,
+            "title": "Pequena",
+            "subtitle": "Pizza 20cm com 1 sabor",
+            "price": 10.5
+        },
+        {
+            "id": 2,
+            "title": "Média",
+            "subtitle": "Pizza 30cm com 2 sabores",
+            "price": 22.5
+        },
+        {
+            "id": 3,
+            "title": "Grande",
+            "subtitle": "Pizza 45cm com 3 sabores",
+            "price": 37
+        },
+        {
+            "id": 4,
+            "title": "Gigante",
+            "subtitle": "Pizza 55cm com 4 sabores",
+            "price": 48
+        }
+    ]
+}

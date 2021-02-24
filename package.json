@@ -1,0 +1,26 @@
+{
+    "name": "pizzaria-brainweb",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "cd backend/ && npm start",
+      "build": "cd frontend/  && npm install && npm run build && cd .. && npm run build-server ",
+      "build-server": "cd backend/ && npm install"
+    },
+    "cacheDirectories": [
+      "backend/node_modules",
+      "frontend/node_modules"
+    ],
+    "dependencies": {},
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ferreiraguihh/brainweb-pizza.git"
+    },
+    "keywords": [
+      "node",
+      "heroku",
+      "create-react-app",
+      "react"
+    ],
+    "license": "MIT",
+    "devDependencies": {}
+  }

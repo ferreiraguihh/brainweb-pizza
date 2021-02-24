@@ -1,0 +1,23 @@
+.container-header {
+    background-color: hsl(0deg 81% 40%);
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px;
+    box-sizing: border-box;
+    position: absolute;
+}
+.container-logo-pizza{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.container-logo-pizza img{
+    width: 50px;
+}

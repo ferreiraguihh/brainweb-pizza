@@ -1,0 +1,199 @@
+.container-order{
+    background-image: url("https://st.depositphotos.com/3470617/4920/v/950/depositphotos_49203401-stock-illustration-pizza-background.jpg");
+    background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: calc(10px + 2vmin);
+      color: black;
+      padding: 60px 0px 0px 0px;
+  }
+
+.container-all-order{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  height: 35rem;
+  width: 450px;
+}
+.MuiStepper-root{
+  padding: 17px 0px 5px 0px!important;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.footer-order{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.MuiStepIcon-root.MuiStepIcon-active{
+  color: hsl(0deg 81% 40%)!important;
+}
+.MuiStepIcon-root.MuiStepIcon-completed{
+  color: hsl(0deg 81% 40%)!important;
+}
+.MuiButton-containedPrimary{
+  background-color: hsl(0deg 81% 40%)!important;
+}
+.container-body-order{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+}
+.container-body-order h3{
+  color: hsl(0deg 14% 13%);
+  margin: 0px;
+  font-weight: 400;
+  font-size: 25px;
+  margin-left: 2px;
+  margin-bottom: 5px;
+}
+.PrivateSwitchBase-root-1 {
+  padding: 0!important;
+}
+
+.radio-button svg{
+  width: 18px;
+}
+
+.container-tam-in{
+  max-height: 358px;
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.container-input-check{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid hsl(0deg 0% 62%);
+  margin-top: 8px;
+}
+.container-info-input-check{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0px 0px 8px;
+}
+.container-info-input-check p{
+  margin: 0;
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+.container-info-input-check span{
+  font-size: 16px;
+  color: hsl(0deg 11% 46%);
+  width: 100%;
+}
+
+.container-confirm-order{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  border: 1px solid hsl(0deg 0% 62%);
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+
+.container-info-confirm-order{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.container-info-confirm-order img{
+  width: 120px;
+  border-radius: 10px;
+}
+.container-pizza-info{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.container-pizza-info div{
+display: flex;
+}
+.container-confirm-order div p{
+  font-size: 18px;
+  text-align: right;
+  margin: 0px;
+  margin-right: 10px;
+}
+
+.container-confirm-order div span{
+  font-size: 17px;
+}
+
+.finish-order{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.suggestion-pizza{
+  background-color: hsl(0deg 59% 41%);
+  color: hsl(0deg 0% 100%);
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.select-message-footer{
+  font-size: 15px;
+  text-align: right;
+  color: black;
+}
+
+
+.backgroundDay{
+  background-color: hsl(0deg 59% 41%);
+}
+.backgroundDay span, .backgroundDay div{
+  color: white;
+  font-size: 17px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container-all-order{
+    width: 354px;
+  }
+  .container-body-order h3 {
+  font-size: 23px;
+  }
+  .container-info-input-check p{
+    font-size: 17px;
+  }
+  .container-info-input-check span{
+    font-size: 15px;
+  }
+  .container-info-home button{
+    font-size: 22px
+  }
+  .font-mobile{
+    font-size: 30px;
+  }
+}
+.container-fillings-title{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

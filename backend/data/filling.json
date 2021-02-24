@@ -1,0 +1,39 @@
+{
+    "filling":[
+        {
+            "id": 1,
+            "title": "Calabresa com cebola",
+            "subtitle": "molho de tomate, muçarela, calabresa, cebola e parmesão"
+        },
+        {
+            "id": 2,
+            "title": "Bacon",
+            "subtitle": "Bacon, molho de tomate, muçarela, cebola e parmesão"
+        },
+        {
+            "id": 3,
+            "title": "Marguerita",
+            "subtitle": "Molho de tomate, mussarela de búfala, manjericão, queijo parmesão ralado e azeite."
+        },
+        {
+            "id": 4,
+            "title": "Frango com catupiry",
+            "subtitle": "Frango,molho de tomate, queijo muçarela, catupiry, pimentão, azeitonas e orégano."
+        },
+        {
+            "id": 5,
+            "title": "Portuguesa",
+            "subtitle": " Calabresa, tomates, muçarela, cebolas e azeitonas pretas."
+        },
+        {
+            "id": 6,
+            "title": "Atum",
+            "subtitle": "Atum, muçarela, tomate cereja, alcaparras, azeitonas pretas, azeite e orégano."
+        },
+        {
+            "id": 7,
+            "title": "Lombo",
+            "subtitle": "Lombo, molho de tomate, muçarela, azeitonas verdes e orégano."
+        }
+    ]
+}
